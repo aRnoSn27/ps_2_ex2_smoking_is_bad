@@ -1,0 +1,18 @@
+name: smoke
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - ipykernel
+  - pandas>=2.1.0
+  - numpy>=1.22.3
+  - matplotlib>=3.7.0
+  - seaborn>=0.12.0
+  - scikit-learn>=1.2.0
+  - scipy>=1.8.2
+  - statsmodels>=0.14.0
+  - pip:
+    - patsy>=0.5.6
